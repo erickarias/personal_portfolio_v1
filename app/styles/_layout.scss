@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: $white;
+  color: $black;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.header,
+.content,
+.footer {
+  > .inner {
+    margin: 0 auto;
+    text-align: left;
+    @include clearfix;
+
+    @include media {
+      max-width: 960px;
+    }
+  }
+}
+
+.desktop-only {
+  display: none;
+
+  @include media {
+    display: block;
+  }
+}
+
+.mobile-only {
+  display: block;
+
+  @include media {
+    display: none;
+  }
+}
+
