@@ -8,7 +8,7 @@
 
 html,
 body {
-  @include retina-image("images/sos", 25px  25px);
+  @include retina-image("assets/images/sos", 25px  25px);
   color: $black;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
