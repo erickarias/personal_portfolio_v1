@@ -1,3 +1,4 @@
-export default Ember.Controller.extend({
-  title: 'title'
+export default Ember.ArrayController.extend({
+
 });
+

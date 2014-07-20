@@ -1,8 +1,11 @@
-<header>
+<header class='header'>
 	<div class="inner">
-		<div class="logo">logo</div>
+		<div class="logo">{{#link-to 'index'}}<i class='icon icon-logo'></i>{{/link-to}}</div>
 		<div class="navigation">
-			<i class="icon icon-menu"></i>
+			<ul>
+				<li>{{#link-to 'index'}}Portfolio{{/link-to}}</li>
+				<li>{{#link-to 'resume'}}Resume{{/link-to}}</li>
+			</ul>
 		</div>
 	</div>
 </header>

@@ -1,0 +1,27 @@
+.project-page {
+	h1 {
+		font-size: 28px;
+		line-height: 30px;
+		font-weight: bold;
+		margin: 0 0 10px;
+
+		span {
+			font-size: 15px;
+			margin-left: 10px;
+		}
+	}
+
+	.browser {
+		position: fixed;
+		top: 150px;
+		left: 5%;
+		right: 5%;
+
+		iframe {
+			border: 0;
+			height: 680px;
+			width: 100%;
+			background-color: $white;
+		}
+	}
+}

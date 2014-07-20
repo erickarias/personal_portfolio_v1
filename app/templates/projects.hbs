@@ -1,5 +1,9 @@
-Projects
-
-{{#each}}
-{{title}}
-{{/each}}
+<div class='tiles'>
+	{{#each}}
+		<div class='tile'>
+			{{#link-to 'project' this}}
+				<img {{bind-attr src='thumbnail'}} />
+			{{/link-to}}
+		</div>
+	{{/each}}
+</div>

@@ -1,0 +1,64 @@
+.intro {
+	color: $white;
+	height: 350px;
+	margin-top: -75px;
+	padding-top: 145px;
+	text-align: center;
+	@include retina-image("images/escheresque_ste", 46px  29px);
+
+	h1 {
+		font-size: 28px;
+		line-height: 32px;
+		margin: 0 0 10px 0;
+
+		@include media {
+			font-size: 40px;
+			line-height: 45px;
+		}
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+	}
+
+	@include media {
+		height: 420px;
+		padding-top: 160px;
+	}
+}
+
+.tiles {
+	padding-top: 10px;
+	@include clearfix;
+
+	.tile {
+		float: left;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 10px;
+
+		a {
+			float: left;
+			line-height: 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		@include media {
+			width: 30%;
+			margin: 0 0 20px 3%;
+			padding: 0;
+			box-shadow: 0 0 3px $gray;
+		}
+	}
+
+	@include media {
+		margin-left: -3%;
+		padding-top: 40px;
+	}
+}
