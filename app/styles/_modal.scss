@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  top: 150px;
+  background-color: $white;
+  padding: 35px 25px;
+
+  h2 {
+  	font-weight: normal;
+		margin: 0;
+  }
+
+  p {
+		margin-bottom: 0;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
