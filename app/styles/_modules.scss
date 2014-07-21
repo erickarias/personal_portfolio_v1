@@ -1,10 +1,11 @@
 .intro {
+	background-color: $gray;
 	color: $white;
 	height: 350px;
 	margin-top: -75px;
 	padding-top: 145px;
 	text-align: center;
-	@include retina-image("assets/images/escheresque_ste", 46px  29px);
+	@include retina-image("images/escheresque_ste", 46px  29px);
 
 	h1 {
 		font-size: 28px;
