@@ -1,5 +1,36 @@
 .resume {
 
+	.resume-title {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		@include clearfix;
+		padding: 15px 0;
+		border-top: 1px solid $black;
+		border-bottom: 1px solid $black;
+		margin-bottom: 40px;
+
+		li {
+			&.name {
+				font-family: 'Fjalla One', sans-serif;
+				font-size: 30px;
+				text-transform: uppercase;
+				margin-bottom: 5px;
+				line-height: 35px;
+
+				@include media {
+					margin-bottom: 0;
+				}
+			}
+
+			@include media {
+				float: left;
+				line-height: 35px;
+				margin-right: 20px;
+			}
+		}
+	}
+
 	h2 {
 		font-family: 'Fjalla One', sans-serif;
 		margin: 0 0 20px 0;
