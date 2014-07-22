@@ -8,25 +8,26 @@
 	@include retina-image("/assets/images/escheresque_ste", 46px  29px);
 
 	h1 {
-		font-size: 28px;
-		line-height: 32px;
+		font-size: 30px;
+		line-height: 40px;
 		margin: 0 0 10px 0;
+		font-family: 'Fjalla One', sans-serif;
 
 		@include media {
-			font-size: 40px;
+			font-size: 45px;
 			line-height: 45px;
 		}
 	}
 
 	p {
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 25px;
 		margin: 0;
 	}
 
 	@include media {
 		height: 420px;
-		padding-top: 160px;
+		padding-top: 180px;
 	}
 }
 
