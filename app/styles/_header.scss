@@ -33,6 +33,13 @@ header {
 					list-style-type: none;
 					display: inline;
 					margin: 0 0 0 15px;
+
+					a {
+						&.active {
+							border-bottom: 5px solid $black;
+							padding-bottom: 5px;
+						}
+					}
 				}
 			}
 		}
@@ -41,13 +48,31 @@ header {
 
 .index {
 	header {
-		color: $white;
+		.inner {
+			i {
+				color: $white;
+			}
 
-		a {
-			color: $white;
+			.navigation {
+				ul {
+					li {
+						a {
+							color: $white;
 
-			&:hover {
-				color: lighten($teal, 20%);
+							&:hover {
+								color: lighten($teal, 20%);
+
+								&.active {
+									border-bottom-color: lighten($teal, 20%);
+								}
+							}
+
+							&.active {
+								border-bottom-color: $white;
+							}
+						}
+					}
+				}
 			}
 		}
 	}

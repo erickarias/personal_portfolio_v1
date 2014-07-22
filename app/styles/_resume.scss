@@ -11,11 +11,10 @@
 		width: 100%;
 
 		li {
-			width: 33%;
-			float: left;
+			width: 100%;
 			font-family: 'Fjalla One', sans-serif;
-			font-size: 28px;
-			line-height: 25px;
+			font-size: 25px;
+			line-height: 34px;
 
 			&.phone {
 				width: 30%;
@@ -25,7 +24,16 @@
 			}
 			&.github {
 				width: 30%;
-				text-align: right;
+
+				@include media {
+					text-align: right;
+				}
+			}
+
+			@include media {
+				width: 33%;
+				line-height: 25px;
+				float: left;
 			}
 		}
 
@@ -40,7 +48,7 @@
 		font-family: 'Fjalla One', sans-serif;
 		margin: 0 0 15px 0;
 		text-transform: lowercase;
-		font-size: 28px;
+		font-size: 25px;
 		font-weight: normal;
 	}
 
