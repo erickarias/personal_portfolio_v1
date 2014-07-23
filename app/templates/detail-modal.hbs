@@ -1,0 +1,9 @@
+<div class="overlay" {{action "removeModal"}}></div>
+<i class="icon icon-cancel-circled-outline" {{action "removeModal"}}></i>
+<div class="modal" {{action "removeModal"}}>
+  {{#modal-dialog title='Detail' close='removeModal'}}
+	  <h2>{{title}}</h2>
+	  <p>{{description}}</p>
+	  <p><a {{bind-attr href='url'}}>{{url}}</a></p>
+	{{/modal-dialog}}
+</div>

@@ -1,10 +1,11 @@
 .project-page {
 	h1 {
 		font-size: 28px;
-		line-height: 35px;
+		line-height: 40px;
 		font-weight: normal;
 		margin: 0 0 10px;
 		float: left;
+		font-family: 'Fjalla One', sans-serif;
 
 		span {
 			font-size: 15px;
@@ -24,24 +25,37 @@
 		text-transform: uppercase;
 		border-radius: 5px;
 		cursor: pointer;
-		margin: 0;
+		margin: 0 0 10px 10px;
+		width: 100%;
 
 		&:hover {
 			background-color: lighten( $teal, 10%);
 		}
+
+		@include media {
+			width: auto;
+			margin: 0 0 0 10px;
+		}
 	}
 
 	.browser {
-		position: fixed;
-		top: 150px;
-		left: 5%;
-		right: 5%;
+		box-shadow: 0 0 3px $gray;
+		float: left;
+		width: 100%;
 
 		iframe {
 			border: 0;
 			height: 680px;
 			width: 100%;
 			background-color: $white;
+		}
+
+		@include media {
+			position: fixed;
+			top: 150px;
+			left: 5%;
+			right: 5%;
+			width: auto;
 		}
 	}
 }

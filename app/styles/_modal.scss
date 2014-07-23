@@ -2,17 +2,28 @@
   position: absolute;
   right: 5%;
   left: 5%;
-  top: 150px;
+  top: 60px;
   background-color: $white;
   padding: 35px 25px;
 
   h2 {
   	font-weight: normal;
 		margin: 0;
+		font-family: 'Fjalla One', sans-serif;
   }
 
   p {
 		margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &.related {
+    text-align: center;
+    overflow: scroll;
+    bottom: 0;
   }
 }
 
@@ -22,5 +33,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  @include retina-image("/assets/images/escheresque_ste", 46px  29px);
+}
+
+i.icon-cancel-circled-outline {
+  position: absolute;
+  right: 1%;
+  top: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    color: lighten($teal, 20%);
+  }
 }
