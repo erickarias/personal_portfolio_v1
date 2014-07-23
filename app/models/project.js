@@ -49,7 +49,7 @@ Project.reopenClass({
     },
 
     { id: 5,
-      title: 'To Do Chicago',
+      title: 'To Do Chicago (This project hasn\'t shipped yet. Contact for access.)',
       description: 'Front-end developer and lead designer working with external development team. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and adverstsing. SORRY, BUT THIS PROJECT IS STILL UNDER CONSTRUCTION. CONTACT ME FOR ASSISTANCE.',
       thumbnail: 'assets/images/thumbnails/to-do-chicago.png',
       url: 'http://beta.chicago.com',
