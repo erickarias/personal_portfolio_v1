@@ -1,4 +1,4 @@
-.resume {
+.resume-page {
 	.resume-title {
 		list-style-type: none;
 		padding: 0;
@@ -12,15 +12,13 @@
 
 		li {
 			width: 100%;
-			font-family: 'Fjalla One', sans-serif;
-			font-size: 25px;
 			line-height: 34px;
 
 			&.phone {
-				width: 30%;
+				width: 35%;
 			}
 			&.email {
-				width: 40%;
+				width: 35%;
 			}
 			&.github {
 				width: 30%;
@@ -47,7 +45,8 @@
 	h2 {
 		font-family: 'Fjalla One', sans-serif;
 		margin: 0 0 15px 0;
-		font-size: 25px;
+		font-size: 30px;
+		text-transform: uppercase;
 		font-weight: normal;
 	}
 
