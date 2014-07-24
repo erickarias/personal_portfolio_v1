@@ -14,12 +14,16 @@ Related.reopenClass({
       image: 'assets/images/wires/chicago-sitemap.png'
     },
     { id: 101,
-      title: 'Chicago.com Sitemap',
+      title: 'Chicago.com pages',
       image: 'assets/images/wires/chicago-pages.png'
     },
     { id: 102,
-      title: 'Chicago.com Sitemap',
+      title: 'Chicago.com content types',
       image: 'assets/images/wires/chicago-contenttypes.png'
+    },
+    { id: 103,
+      title: 'To Do Homepage',
+      image: 'assets/images/wires/todo-home.png'
     }
   ]
 });

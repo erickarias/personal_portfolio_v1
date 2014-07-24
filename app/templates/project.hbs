@@ -1,9 +1,9 @@
 <div class='project-page content'>
 	<div class="inner">
 		<h1>{{title}}</h1>
-		<button {{action 'showModal' 'detail-modal' model}}>Details</button>
+		<button {{action 'showModal' 'detail-modal' model}}>Description</button>
 		{{#if hasRelated}}
-			<button {{action 'showModal' 'related-modal' model}}>Wireframes</button>
+			<button {{action 'showModal' 'related-modal' model}}>Process</button>
 		{{/if}}
 		<div class='browser'>
 			<iframe {{bind-attr src='url'}}></iframe>
