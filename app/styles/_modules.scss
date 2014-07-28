@@ -13,6 +13,10 @@
 		margin: 0 0 10px 0;
 		font-family: 'Fjalla One', sans-serif;
 
+		span {
+			color: lighten($teal, 10%);
+		}
+
 		@include media {
 			font-size: 45px;
 			line-height: 45px;

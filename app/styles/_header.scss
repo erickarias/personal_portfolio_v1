@@ -60,10 +60,10 @@ header {
 							color: $white;
 
 							&:hover {
-								color: lighten($teal, 20%);
+								color: lighten($teal, 10%);
 
 								&.active {
-									border-bottom-color: lighten($teal, 20%);
+									border-bottom-color: lighten($teal, 10%);
 								}
 							}
 
