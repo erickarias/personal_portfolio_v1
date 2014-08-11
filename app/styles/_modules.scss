@@ -2,7 +2,7 @@
 	background-color: $gray;
 	color: $white;
 	height: 350px;
-	margin-top: -80px;
+	margin-top: -110px;
 	padding-top: 145px;
 	text-align: center;
 	@include retina-image("/assets/images/escheresque_ste", 46px  29px);
@@ -14,7 +14,7 @@
 		font-family: 'Fjalla One', sans-serif;
 
 		span {
-			color: lighten($teal, 10%);
+			color: lighten($teal, 15%);
 		}
 
 		@include media {

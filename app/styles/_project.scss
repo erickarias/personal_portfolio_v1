@@ -15,42 +15,66 @@
 	}
 
 	.proj-link {
-		position: absolute;
-		height: 60px;
-		width: 60px;
 		background: $teal;
-		padding: 15px 0 0 0;
-		top: 45%;
+		float: left;
+		width: 50%;
+		padding: 10px 0;
+		margin-bottom: 10px;
 
 		&:hover {
 			background: lighten($teal, 10%);
 		}
 
 		&.next {
-			right: 0;
-			padding-right: 20px;
+			border-left: 3px solid $light-gray;
 		}
 
 		&.prev {
-			left: 0;
-			padding-left: 20px;
+			border-right: 3px solid $light-gray;
 		}
 
 		.arrow-right {
 			width: 0;
 			height: 0;
-			border-top: 15px solid transparent;
-			border-bottom: 15px solid transparent;
-			border-left: 15px solid white;
-			float: right;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left: 10px solid white;
 		}
 
 		.arrow-left {
 			width: 0;
 			height: 0;
-			border-top: 15px solid transparent;
-			border-bottom: 15px solid transparent;
-			border-right:15px solid white;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-right:10px solid white;
+		}
+
+		.arrow-left, .arrow-right {
+			margin: 0 auto;
+		}
+
+		@include media {
+			position: absolute;
+			top: 300px;
+			height: 50px;
+			width: 50px;
+			padding: 15px 0 0 0;
+			float: none;
+
+			.arrow-right {
+				float: right;
+			}
+
+			&.next {
+				right: 0;
+				padding-right: 17px;
+				border: 0;
+			}
+
+			&.prev {
+				left: 0;
+				border: 0;
+			}
 		}
 	}
 
@@ -92,7 +116,7 @@
 
 		@include media {
 			position: fixed;
-			top: 150px;
+			top: 180px;
 			left: 5%;
 			right: 5%;
 			width: auto;
