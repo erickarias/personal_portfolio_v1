@@ -6,38 +6,37 @@ var Related = DS.Model.extend({
   project: DS.belongsTo('project')
 });
 
-
 Related.reopenClass({
   FIXTURES: [
-    { id: 100,
+    { id: 1,
       title: 'Chicago.com Sitemap',
       image: 'assets/images/wires/chicago-sitemap.png'
     },
-    { id: 101,
+    { id: 2,
       title: 'Chicago.com pages',
       image: 'assets/images/wires/chicago-pages.png'
     },
-    { id: 102,
+    { id: 3,
       title: 'Chicago.com content types',
       image: 'assets/images/wires/chicago-contenttypes.png'
     },
-    { id: 103,
+    { id: 4,
       title: ' ',
       image: 'assets/images/wires/hscnews_v1.jpg'
     },
-    { id: 104,
+    { id: 5,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide1.jpg'
     },
-    { id: 105,
+    { id: 6,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide2.jpg'
     },
-    { id: 106,
+    { id: 7,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide3.jpg'
     },
-    { id: 107,
+    { id: 8,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide4.jpg'
     },

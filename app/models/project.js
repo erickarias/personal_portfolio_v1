@@ -18,7 +18,7 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/chicago-portal.png',
       url: 'http://chicago.com',
       items: true,
-      related: [100, 101, 102]
+      related: [1, 2, 3]
     },
 
     { id: 2,
@@ -64,7 +64,7 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/HSC-news.png',
       url: 'http://highschoolcubenews.com',
       items: true,
-      related: [103, 104, 105, 106, 107]
+      related: [4, 5, 6, 7, 8]
     }
   ]
 });
