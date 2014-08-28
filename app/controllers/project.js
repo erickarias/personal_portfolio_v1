@@ -1,8 +1,4 @@
 export default Ember.ObjectController.extend({
-  hasRelated: function() {
-    return !!this.get('items') === true;
-  }.property('items'),
-
   nextProject: function(){
     var id = this.get('id');
     id ++;
@@ -14,5 +10,9 @@ export default Ember.ObjectController.extend({
     id --;
     return id;
   }.property('id'),
+
+  hasRelated: function() {
+    return !!this.get('items') === true;
+  }.property('items'),
 });
 
