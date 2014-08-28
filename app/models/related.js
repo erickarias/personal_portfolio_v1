@@ -49,7 +49,7 @@ Related.reopenClass({
       id: 108,
       title: 'Module Guide 4',
       image: 'assets/images/wires/hscnews_guide4.jpg'
-    }
+    },
   ]
 });
 
