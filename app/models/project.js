@@ -63,8 +63,8 @@ Project.reopenClass({
       description: 'Lead designer and code contributer for out-of-the-box front-end app and CMS. Worked with sales team to create new advertising opportunities on site. Coded HTML ad units and schedule widgets.',
       thumbnail: 'assets/images/thumbnails/HSC-news.png',
       url: 'http://highschoolcubenews.com',
-      items: false,
-      related: []
+      items: true,
+      related: [104, 105, 106, 107, 108]
     }
   ]
 });

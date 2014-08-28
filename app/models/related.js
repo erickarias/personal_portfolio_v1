@@ -24,6 +24,31 @@ Related.reopenClass({
     { id: 103,
       title: 'To Do Homepage',
       image: 'assets/images/wires/todo-home.png'
+    },
+    {
+      id: 104,
+      title: 'Season Pass',
+      image: 'assets/images/wires/hscnews_v1.jpg'
+    },
+    {
+      id: 105,
+      title: 'Module Guide 1',
+      image: 'assets/images/wires/hscnews_guide1.jpg'
+    },
+    {
+      id: 106,
+      title: 'Module Guide 2',
+      image: 'assets/images/wires/hscnews_guide1.jpg'
+    },
+    {
+      id: 107,
+      title: 'Module Guide 3',
+      image: 'assets/images/wires/hscnews_guide1.jpg'
+    },
+    {
+      id: 108,
+      title: 'Module Guide 4',
+      image: 'assets/images/wires/hscnews_guide1.jpg'
     }
   ]
 });
