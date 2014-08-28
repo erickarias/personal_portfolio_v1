@@ -1,13 +1,13 @@
 import DS from 'ember-data';
 
-var related = DS.Model.extend({
+var Related = DS.Model.extend({
   title: DS.attr('string'),
   image: DS.attr('string'),
-  project: DS.belongsTo('project')
+  project: DS.belongsTo('project', {async: true})
 });
 
 
-related.reopenClass({
+Related.reopenClass({
   FIXTURES: [
     { id: 100,
       title: 'Chicago.com Sitemap',
@@ -48,4 +48,4 @@ related.reopenClass({
   ]
 });
 
-export default related;
+export default Related;
