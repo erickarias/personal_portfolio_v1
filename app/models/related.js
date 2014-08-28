@@ -38,17 +38,17 @@ Related.reopenClass({
     {
       id: 106,
       title: 'Module Guide 2',
-      image: 'assets/images/wires/hscnews_guide1.jpg'
+      image: 'assets/images/wires/hscnews_guide2.jpg'
     },
     {
       id: 107,
       title: 'Module Guide 3',
-      image: 'assets/images/wires/hscnews_guide1.jpg'
+      image: 'assets/images/wires/hscnews_guide3.jpg'
     },
     {
       id: 108,
       title: 'Module Guide 4',
-      image: 'assets/images/wires/hscnews_guide1.jpg'
+      image: 'assets/images/wires/hscnews_guide4.jpg'
     }
   ]
 });
