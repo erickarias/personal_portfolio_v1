@@ -5,6 +5,12 @@
 		{{#if hasRelated}}
 			<button {{action 'showModal' 'related-modal' model}}>Process</button>
 		{{/if}}
+		{{#if prevProject}}
+			{{#link-to 'project' prevProject classNames='prev proj-link'}}<div class="arrow-left"></div>{{/link-to}}
+		{{/if}}
+		{{#if nextProject}}
+			{{#link-to 'project' nextProject classNames='next proj-link'}}<div class="arrow-right"></div>{{/link-to}}
+		{{/if}}
 		<div class='browser'>
 			<iframe {{bind-attr src='url'}}></iframe>
 		</div>
