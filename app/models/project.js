@@ -6,7 +6,7 @@ var Project = DS.Model.extend({
   thumbnail: DS.attr('string'),
   url: DS.attr('string'),
   items: DS.attr('boolean'),
-  related: DS.hasMany('related', { async: true })
+  related: DS.attr('string'),
 });
 
 
@@ -18,7 +18,7 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/chicago-portal.png',
       url: 'http://chicago.com',
       items: true,
-      related: [1, 2, 3]
+      related: 'assets/images/wires/chicago-pages.jpg'
     },
 
     { id: 2,
@@ -27,7 +27,6 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/to-do-chicago.png',
       url: 'http://todo.chicago.com',
       items: false,
-      related: []
     },
 
     { id: 3,
@@ -36,7 +35,6 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/@chicago.png',
       url: 'http://email.chicago.com',
       items: false,
-      related: []
     },
 
     { id: 4,
@@ -45,7 +43,6 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/naperville-sun.png',
       url: 'http://napervillesun.suntimes.com',
       items: false,
-      related: []
     },
 
     { id: 5,
@@ -54,7 +51,6 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/vivid-seats.png',
       url: 'http://vividseats.com',
       items: false,
-      related: []
     },
 
 
@@ -64,7 +60,7 @@ Project.reopenClass({
       thumbnail: 'assets/images/thumbnails/HSC-news.png',
       url: 'http://highschoolcubenews.com',
       items: true,
-      related: [4, 5, 6, 7, 8]
+      related: 'assets/images/wires/hscnews_v1.jpg'
     }
   ]
 });
