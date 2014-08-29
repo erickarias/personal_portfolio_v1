@@ -17,7 +17,7 @@ Project.reopenClass({
       description: 'Front-end developer and lead designer working with external development team. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and adverstsing.',
       thumbnail: 'assets/images/thumbnails/chicago-portal.png',
       url: 'http://chicago.com',
-      items: false,
+      items: true,
       related: [1, 2, 3]
     },
 
@@ -63,7 +63,7 @@ Project.reopenClass({
       description: 'Lead designer and code contributer for out-of-the-box front-end app and CMS. Worked with sales team to create new advertising opportunities on site. Coded HTML ad units and schedule widgets.',
       thumbnail: 'assets/images/thumbnails/HSC-news.png',
       url: 'http://highschoolcubenews.com',
-      items: false,
+      items: true,
       related: [4, 5, 6, 7, 8]
     }
   ]
