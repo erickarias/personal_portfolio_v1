@@ -8,10 +8,10 @@
 
 html,
 body {
-  @include retina-image("/assets/images/sos", 25px  25px);
+  @include retina-image("/assets/images/cream_dust", 50px  50px);
   background-color: $light-gray;
-  color: $black;
-  font-family: 'Open Sans', sans-serif;
+  color: $dark-gray;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 18px;
   line-height: 28px;
   text-align: left;
@@ -33,10 +33,6 @@ body {
       padding: 0;
     }
   }
-}
-
-.content {
-  padding: 70px 0 0 0;
 }
 
 .desktop-only {
