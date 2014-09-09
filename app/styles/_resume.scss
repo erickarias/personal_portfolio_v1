@@ -4,24 +4,27 @@
 		padding: 0;
 		margin: 0;
 		@include clearfix;
-		padding: 15px 0;
-		border-top: 1px solid $black;
-		border-bottom: 1px solid $black;
+		border-bottom: 1px solid $medium-gray;
+		background-color: $light-gray;
 		margin-bottom: 40px;
 		width: 100%;
+		padding: 15px 5%;
 
 		li {
 			width: 100%;
 			line-height: 34px;
 
 			&.phone {
-				width: 35%;
+				width: 33%;
+				@include media {
+					text-align: left;
+				}
 			}
 			&.email {
-				width: 35%;
+				width: 33%;
 			}
 			&.github {
-				width: 30%;
+				width: 33%;
 
 				@include media {
 					text-align: right;
@@ -32,6 +35,7 @@
 				width: 33%;
 				line-height: 25px;
 				float: left;
+				text-align: center;
 			}
 		}
 
@@ -43,17 +47,21 @@
 	}
 
 	h2 {
-		font-family: 'Fjalla One', sans-serif;
-		margin: 0 0 15px 0;
-		font-size: 30px;
+		margin: 15px 0 15px 0;
 		text-transform: uppercase;
-		font-weight: normal;
+		font-size: 25px;
+		line-height: 40px;
+		font-weight: bold;
+		float: left;
+		width: 100%;
+    color: $gray;
 	}
 
 	h3 {
 		font-size: 18px;
 		margin: 0;
 		font-weight: 700;
+
 		span {
 			font-weight: normal;
 		}
@@ -62,7 +70,6 @@
 	h4 {
 		font-size: 18px;
 		margin: 0 0 10px;
-		font-style: italic;
 		font-weight: 400;
 	}
 

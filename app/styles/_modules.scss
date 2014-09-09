@@ -2,23 +2,23 @@
 	background-color: $gray;
 	color: $white;
 	height: 350px;
+	text-align: center;
 	margin-top: -110px;
 	padding-top: 145px;
-	text-align: center;
-	@include retina-image("/assets/images/escheresque_ste", 46px  29px);
+	@include retina-image("/assets/images/gplaypattern", 188px  178px);
 
 	h1 {
 		font-size: 30px;
 		line-height: 40px;
-		margin: 0 0 10px 0;
+		margin: 0 0 20px 0;
 		font-family: 'Fjalla One', sans-serif;
 
 		span {
-			color: lighten($teal, 15%);
+			color: lighten($teal, 20%);
 		}
 
 		@include media {
-			font-size: 45px;
+			font-size: 50px;
 			line-height: 45px;
 		}
 	}
@@ -30,8 +30,8 @@
 	}
 
 	@include media {
-		height: 420px;
-		padding-top: 180px;
+		height: 500px;
+		padding-top: 220px;
 	}
 }
 
@@ -43,7 +43,8 @@
 		float: left;
 		width: 100%;
 		margin: 0 auto;
-		padding: 0 0 10px;
+		margin: 0 0 10px;
+		box-shadow: 0 0 1px $gray;
 
 		a {
 			float: left;
@@ -56,10 +57,9 @@
 		}
 
 		@include media {
-			width: 30%;
-			margin: 0 0 20px 3%;
+			width: 25%;
+			margin: 0 0 30px 3%;
 			padding: 0;
-			box-shadow: 0 0 3px $gray;
 		}
 	}
 
@@ -67,6 +67,6 @@
 		padding-top: 40px;
 		max-width: 1600px;
 		margin: 0 auto;
-		padding-right: 3%;
+		padding-left: 11%;
 	}
 }

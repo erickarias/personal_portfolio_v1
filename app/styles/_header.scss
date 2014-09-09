@@ -1,24 +1,23 @@
 header {
-	height: 40px;
 	@include clearfix;
 	font-size: 18px;
 	line-height: 18px;
+	padding: 15px 0;
+	@include retina-image("/assets/images/gplaypattern", 188px  178px);
 
 	.inner {
 		@include clearfix;
 
 		a {
 			text-decoration: none;
-			color: $black;
+			color: $white;
 		}
 
 		.logo {
 			float: left;
-			margin-top: 20px;
 
 			i {
-				font-size: 70px;
-				margin-left: 10px;
+				font-size: 50px;
 			}
 		}
 
@@ -27,19 +26,14 @@ header {
 
 			ul {
 				padding: 0;
-				margin: 25px 0 0 0;
+				margin: 14px 0 0;
 
 				li {
 					list-style-type: none;
 					display: inline;
-					margin: 0 0 0 15px;
-
-					a {
-						&.active {
-							border-bottom: 5px solid $black;
-							padding-bottom: 3px;
-						}
-					}
+					margin: 0 0 0 25px;
+					text-transform: uppercase;
+					font-size: 14px;
 				}
 			}
 		}
@@ -48,9 +42,10 @@ header {
 
 .index {
 	header {
+		background-color: none;
 		.inner {
 			i {
-				color: lighten($teal, 15%);
+				color: $white;
 			}
 
 			.navigation {

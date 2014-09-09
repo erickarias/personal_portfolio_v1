@@ -6,7 +6,9 @@ export default Ember.ObjectController.extend({
   nextProject: function(){
     var id = this.get('id');
     id ++;
-    return id;
+    if (id < 7) {
+      return id;
+    }
   }.property('id'),
 
   prevProject: function(){

@@ -1,18 +1,21 @@
 <div class='project-page content'>
-	<div class="inner">
+	<div class="details inner">
 		<h1>{{title}}</h1>
-		<button {{action 'showModal' 'detail-modal' model}}>Description</button>
-		{{#if hasRelated}}
-			<button {{action 'showModal' 'related-modal' model}}>Process</button>
-		{{/if}}
+		<p>{{contributions}}</p>
+		<p>{{description}}</p>
+		<p><a {{bind-attr href='url'}} target="_blank">{{url}}</a></p>
+	</div>
+	<div class="inner">
 		{{#if prevProject}}
 			{{#link-to 'project' prevProject classNames='prev proj-link'}}<div class="arrow-left"></div>{{/link-to}}
 		{{/if}}
 		{{#if nextProject}}
 			{{#link-to 'project' nextProject classNames='next proj-link'}}<div class="arrow-right"></div>{{/link-to}}
 		{{/if}}
-		<div class='browser'>
-			<iframe {{bind-attr src='url'}}></iframe>
-		</div>
+		<div class="screenshots">
+			{{#each value in related}}
+	    	<img {{bind-attr src='value'}} />
+	    {{/each}}
+	  </div>
 	</div>
 </div>
