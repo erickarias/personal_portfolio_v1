@@ -1,21 +1,31 @@
 .project-page {
-	h1 {
-		font-size: 28px;
-		line-height: 40px;
-		font-weight: normal;
-		margin: 0 0 10px;
-		float: left;
-		font-family: 'Fjalla One', sans-serif;
+	.details {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid $medium-gray;
 
-		span {
-			font-size: 15px;
-			font-weight: normal;
-			margin-left: 10px;
+		h1 {
+			font-size: 30px;
+			line-height: 40px;
+			font-weight: bold;
+			margin: 0 0 10px;
+			text-align: center;
+			color: $black;
+
+			span {
+				font-size: 15px;
+				font-weight: normal;
+				margin-left: 10px;
+			}
+		}
+
+		p {
+			text-align: center;
 		}
 	}
 
 	.proj-link {
-		background: $teal;
+		background: lighten($teal, 5%);
 		float: left;
 		width: 50%;
 		padding: 10px 0;
@@ -54,10 +64,10 @@
 		}
 
 		@include media {
-			position: absolute;
-			top: 300px;
+			position: fixed;
+			top: 45%;
 			height: 50px;
-			width: 50px;
+			width: 45px;
 			padding: 15px 0 0 0;
 			float: none;
 
@@ -77,6 +87,18 @@
 			}
 		}
 	}
+
+	.screenshots {
+		margin-top: 45px;
+		text-align: center;
+
+		img {
+			max-width: 100%;
+			margin-bottom: 40px;
+			box-shadow: 0 0 1px $gray;
+		}
+	}
+
 
 	button {
 		float: right;
