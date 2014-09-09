@@ -15,7 +15,7 @@ Project.reopenClass({
     { id: 1,
       title: 'Chicago.com',
       contributions: 'Visual Design | Frontend Development | Information Architecture | Branding',
-      description: 'Front-end developer and lead designer working with external development team and UX designer. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and adverstsing.',
+      description: 'Front-end developer and lead designer working with external development team and UX designer. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and advertising.',
       thumbnail: 'assets/images/thumbnails/chicago-portal.png',
       url: 'http://chicago.com',
       related: ['assets/images/screenshots/chicago-wires.jpg', 'assets/images/screenshots/chicago-home-desktop.jpg', 'assets/images/screenshots/chicago-section-mobile.jpg', 'assets/images/screenshots/chicago-article-desktop.jpg' ]
@@ -24,7 +24,7 @@ Project.reopenClass({
     { id: 2,
       title: 'To Do Chicago',
       contributions: 'Visual Design | Frontend Development | Information Architecture | Branding',
-      description: 'Front-end developer and lead designer working with external development team. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and adverstsing.',
+      description: 'Front-end developer and lead designer working with external development team. Main Contributions to front-end; EmberJS, SASS, Handlebars templates; experience with unit tests. Helped integrate social media posts on site. Designed all branding and advertising.',
       thumbnail: 'assets/images/thumbnails/to-do-chicago.png',
       url: 'http://todo.chicago.com',
       related: ['assets/images/screenshots/todo-v1-home-desktop.jpg', 'assets/images/screenshots/todo-v1-cards.jpg', 'assets/images/screenshots/todo-wires.jpg', 'assets/images/screenshots/todo-v1-home-mobile.jpg', 'assets/images/screenshots/todo-v2-home-desktop.jpg', 'assets/images/screenshots/todo-v2-home-mobile.jpg' ]
@@ -33,7 +33,7 @@ Project.reopenClass({
     { id: 3,
       title: '@Chicago',
       contributions: 'Visual Design | Frontend Development | Information Architecture | Branding',
-      description: 'Lead front-end developer and designer working with external offshore development team. Main contributions; Javascript, JQuery, SASS, Rails Templates; experience writing Rails helpers. Designed all branding and adverstsing.',
+      description: 'Lead front-end developer and designer working with external offshore development team. Main contributions; Javascript, JQuery, SASS, Rails Templates; experience writing Rails helpers. Designed all branding and advertising.',
       thumbnail: 'assets/images/thumbnails/@chicago.png',
       url: 'http://email.chicago.com',
       related: ['assets/images/screenshots/email-v2-home-desktop.jpg', 'assets/images/screenshots/email-v1-vanity.jpg', 'assets/images/screenshots/email-v2-results-mobile.jpg', 'assets/images/screenshots/email-cart.jpg', 'assets/images/screenshots/email-billing.jpg']
