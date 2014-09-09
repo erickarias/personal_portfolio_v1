@@ -6,6 +6,7 @@
 	margin-top: -110px;
 	padding-top: 145px;
 	@include retina-image("/assets/images/gplaypattern", 188px  178px);
+	background: fixed;
 
 	h1 {
 		font-size: 30px;
@@ -57,7 +58,7 @@
 		}
 
 		@include media {
-			width: 25%;
+			width: 26%;
 			margin: 0 0 30px 3%;
 			padding: 0;
 		}
@@ -67,6 +68,6 @@
 		padding-top: 40px;
 		max-width: 1600px;
 		margin: 0 auto;
-		padding-left: 11%;
+		padding-left: 8%;
 	}
 }
