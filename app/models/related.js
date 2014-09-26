@@ -38,11 +38,11 @@ Related.reopenClass({
     },
     { id: 201,
       image: 'assets/images/screenshots/chicago-mobile.jpg',
-      caption: "Mobile user flow. Homepage, Section, Article"
+      caption: "Mobile user flow. Homepage offers sections for user to drill down."
     },
     { id: 202,
       image: 'assets/images/screenshots/chicago-home-desktop.jpg',
-      caption: "Homepage layout for desktop."
+      caption: "Homepage layout for desktop. Same as mobile, but also offers top story for each section."
     },
     { id: 300,
       image: 'assets/images/screenshots/email-v2-home-desktop.jpg',
