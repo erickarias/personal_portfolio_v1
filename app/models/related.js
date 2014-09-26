@@ -8,35 +8,35 @@ var Related = DS.Model.extend({
 
 Related.reopenClass({
   FIXTURES: [
-    { id: 1,
+    { id: 100,
       title: 'Chicago.com Sitemap',
       image: 'assets/images/wires/chicago-sitemap.png'
     },
-    { id: 2,
+    { id: 200,
       title: 'Chicago.com pages',
       image: 'assets/images/wires/chicago-pages.png'
     },
-    { id: 3,
+    { id: 300,
       title: 'Chicago.com content types',
       image: 'assets/images/wires/chicago-contenttypes.png'
     },
-    { id: 4,
+    { id: 400,
       title: ' ',
       image: 'assets/images/wires/hscnews_v1.jpg'
     },
-    { id: 5,
+    { id: 500,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide1.jpg'
     },
-    { id: 6,
+    { id: 600,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide2.jpg'
     },
-    { id: 7,
+    { id: 700,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide3.jpg'
     },
-    { id: 8,
+    { id: 800,
       title: ' ',
       image: 'assets/images/wires/hscnews_guide4.jpg'
     },
