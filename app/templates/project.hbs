@@ -13,8 +13,9 @@
 			{{#link-to 'project' nextProject classNames='next proj-link'}}<div class="arrow-right"></div>{{/link-to}}
 		{{/if}}
 		<div class="screenshots">
-			{{#each value in related}}
-	    	<img {{bind-attr src='value'}} />
+			{{#each related}}
+		    	<p>{{caption}}</p>
+		    	<img {{bind-attr src='image'}} />
 	    {{/each}}
 	  </div>
 	</div>
