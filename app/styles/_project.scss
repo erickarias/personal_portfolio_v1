@@ -92,9 +92,18 @@
 		margin-top: 45px;
 		text-align: center;
 
+		p {
+			margin: 40px 0 30px;
+		}
+
 		img {
 			max-width: 100%;
 			margin-bottom: 40px;
+			border: 1px solid $medium-gray;
+
+			@include media {
+				max-width: 80%;
+			}
 		}
 	}
 
@@ -120,27 +129,6 @@
 		@include media {
 			width: auto;
 			margin: 0 0 0 10px;
-		}
-	}
-
-	.browser {
-		box-shadow: 0 0 3px $gray;
-		float: left;
-		width: 100%;
-
-		iframe {
-			border: 0;
-			height: 680px;
-			width: 100%;
-			background-color: $white;
-		}
-
-		@include media {
-			position: fixed;
-			top: 180px;
-			left: 5%;
-			right: 5%;
-			width: auto;
 		}
 	}
 }

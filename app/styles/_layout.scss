@@ -8,8 +8,6 @@
 
 html,
 body {
-  @include retina-image("/assets/images/cream_dust", 50px  50px);
-  background-color: $light-gray;
   color: $dark-gray;
   font-family: 'Pontano Sans', sans-serif;
   font-size: 18px;

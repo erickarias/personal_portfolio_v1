@@ -17,7 +17,7 @@ header {
 			float: left;
 
 			i {
-				font-size: 50px;
+				font-size: 60px;
 			}
 		}
 
@@ -26,7 +26,7 @@ header {
 
 			ul {
 				padding: 0;
-				margin: 14px 0 0;
+				margin: 20px 0 0;
 
 				li {
 					list-style-type: none;
@@ -34,39 +34,9 @@ header {
 					margin: 0 0 0 25px;
 					text-transform: uppercase;
 					font-size: 14px;
-				}
-			}
-		}
-	}
-}
-
-.index {
-	header {
-		background-color: none;
-		.inner {
-
-			i {
-				color: $white;
-				font-size: 60px;
-			}
-
-			.navigation {
-				ul {
-					li {
-						a {
-							color: $white;
-
-							&:hover {
-								color: lighten($teal, 10%);
-
-								&.active {
-									border-bottom-color: lighten($teal, 10%);
-								}
-							}
-
-							&.active {
-								border-bottom: 1px solid $white;
-							}
+					a {
+						&.active {
+							border-bottom: 1px solid $white;
 						}
 					}
 				}
