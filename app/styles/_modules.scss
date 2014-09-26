@@ -26,13 +26,13 @@
 
 	p {
 		font-size: 18px;
-		line-height: 25px;
+		line-height: 20px;
 		margin: 0;
 	}
 
 	@include media {
 		height: 500px;
-		padding-top: 220px;
+		padding-top: 230px;
 	}
 }
 

@@ -44,8 +44,10 @@ header {
 	header {
 		background-color: none;
 		.inner {
+
 			i {
 				color: $white;
+				font-size: 60px;
 			}
 
 			.navigation {
@@ -63,7 +65,7 @@ header {
 							}
 
 							&.active {
-								border-bottom-color: $white;
+								border-bottom: 1px solid $white;
 							}
 						}
 					}
