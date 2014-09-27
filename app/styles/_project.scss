@@ -1,7 +1,12 @@
 .project-page {
+	p {
+		max-width: 75%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
 	.details {
 		padding-top: 30px;
-		padding-bottom: 20px;
+		padding-bottom: 60px;
 		border-bottom: 1px solid $medium-gray;
 
 		h1 {
@@ -93,7 +98,7 @@
 		text-align: center;
 
 		p {
-			margin: 40px 0 30px;
+			margin-bottom: 30px;
 		}
 
 		img {
