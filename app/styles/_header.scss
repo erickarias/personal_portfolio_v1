@@ -3,7 +3,7 @@ header {
 	font-size: 18px;
 	line-height: 18px;
 	padding: 15px 0;
-	@include retina-image("/assets/images/gplaypattern", 188px  178px);
+	background: url("/assets/images/gplaypattern");
 
 	.inner {
 		@include clearfix;
