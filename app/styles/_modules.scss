@@ -5,8 +5,7 @@
 	text-align: center;
 	margin-top: -110px;
 	padding-top: 145px;
-	@include retina-image("/assets/images/gplaypattern", 188px  178px);
-	background: fixed;
+	background: url("/assets/images/gplaypattern.png") fixed;
 
 	h1 {
 		font-size: 30px;
