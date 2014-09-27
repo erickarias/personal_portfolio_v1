@@ -1,17 +1,19 @@
 <div class='project-page content'>
 	<div class="details inner">
 		<h1>{{title}}</h1>
+		<div class="proj-nav">
+			{{#if prevProject}}
+				{{#link-to 'project' prevProject classNames='prev proj-link'}}<div class="arrow-left"></div>{{/link-to}}
+			{{/if}}
+			{{#if nextProject}}
+				{{#link-to 'project' nextProject classNames='next proj-link'}}<div class="arrow-right"></div>{{/link-to}}
+			{{/if}}
+		</div>
 		<p>{{contributions}}</p>
 		<p>{{description}}</p>
 		<p><a {{bind-attr href='url'}} target="_blank">{{url}}</a></p>
 	</div>
 	<div class="inner">
-		{{#if prevProject}}
-			{{#link-to 'project' prevProject classNames='prev proj-link'}}<div class="arrow-left"></div>{{/link-to}}
-		{{/if}}
-		{{#if nextProject}}
-			{{#link-to 'project' nextProject classNames='next proj-link'}}<div class="arrow-right"></div>{{/link-to}}
-		{{/if}}
 		<div class="screenshots">
 			{{#each related}}
 		    	<p>{{caption}}</p>
