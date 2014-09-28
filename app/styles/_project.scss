@@ -1,32 +1,8 @@
 .project-page {
-	p {
-		max-width: 75%;
-		margin: 0 auto;
-		margin-top: 20px;
-	}
 	.details {
 		padding-top: 30px;
 		padding-bottom: 60px;
 		border-bottom: 1px solid $medium-gray;
-
-		h1 {
-			font-size: 30px;
-			line-height: 40px;
-			font-weight: bold;
-			margin: 0 0 10px;
-			text-align: center;
-			color: $black;
-
-			span {
-				font-size: 15px;
-				font-weight: normal;
-				margin-left: 10px;
-			}
-		}
-
-		p {
-			text-align: center;
-		}
 	}
 
 	.proj-nav {
